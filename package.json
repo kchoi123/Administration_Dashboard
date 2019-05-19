@@ -1,93 +1,25 @@
 {
-  "_from": "nodeadmin",
-  "_id": "nodeadmin@0.1.2",
-  "_inBundle": false,
-  "_integrity": "sha1-ynPBuRBarapVdQjSGg96SbOXHrA=",
-  "_location": "/nodeadmin",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "nodeadmin",
-    "name": "nodeadmin",
-    "escapedName": "nodeadmin",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+  "name": "administration_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/nodeadmin/-/nodeadmin-0.1.2.tgz",
-  "_shasum": "ca73c1b9105aadaa557508d21a0f7a49b3971eb0",
-  "_spec": "nodeadmin",
-  "_where": "/Users/kevin/Documents/UC_BERKELEY/Homework/APParent",
-  "bugs": {
-    "url": "https://github.com/nodeadmin/nodeadmin/issues"
-  },
-  "bundleDependencies": false,
-  "contributors": [
-    {
-      "name": "Alex Hutchison",
-      "url": "https://github.com/dutchers"
-    },
-    {
-      "name": "Andrew Nickell",
-      "url": "https://github.com/nickell-andrew"
-    },
-    {
-      "name": "Laura Knight",
-      "url": "https://github.com/ljknight"
-    },
-    {
-      "name": "Taylor Lehman",
-      "url": "https://github.com/taylorleh"
-    }
-  ],
-  "dependencies": {
-    "bluebird": "^2.10.2",
-    "body-parser": "^1.14.1",
-    "express": "^4.13.3",
-    "jsonwebtoken": "^5.4.0",
-    "morgan": "^1.6.1",
-    "mysql": "^2.9.0",
-    "path": "^0.12.7",
-    "promise-mysql": "^1.1.1",
-    "randomstring": "^1.1.3",
-    "socket.io": "^2.2.0"
-  },
-  "deprecated": false,
-  "description": "A fantastically elegant interface for MySQL and Node.js/Express management",
-  "devDependencies": {
-    "chai": "^3.4.0",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.4.2",
-    "mocha": "^6.1.4",
-    "supertest": "^4.0.2"
-  },
-  "homepage": "http://nodeadmin.github.io/nodeadmin",
-  "keywords": [
-    "express",
-    "mysql",
-    "middleware",
-    "admin",
-    "server admin",
-    "databases",
-    "dashboard"
-  ],
-  "license": "MIT",
-  "main": "middleware/index.js",
-  "name": "nodeadmin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodeadmin/nodeadmin.git"
+    "url": "git+https://github.com/kchoi123/Administration_Dashboard.git"
   },
-  "scripts": {
-    "postinstall": "npm install --prefix ./middleware/public/",
-    "test": "node ./middleware/tests/test.js"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kchoi123/Administration_Dashboard/issues"
   },
-  "version": "0.1.2"
+  "homepage": "https://github.com/kchoi123/Administration_Dashboard#readme",
+  "dependencies": {
+    "nodeadmin": "^0.1.2",
+    "express": "^4.16.3",
+    "express-session": "^1.16.1"
+  }
 }
